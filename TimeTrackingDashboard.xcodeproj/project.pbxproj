@@ -14,6 +14,10 @@
 		D34FCADE2906F334006984B2 /* TimeTrackingDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCADD2906F334006984B2 /* TimeTrackingDashboardTests.swift */; };
 		D34FCAE82906F334006984B2 /* TimeTrackingDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCAE72906F334006984B2 /* TimeTrackingDashboardUITests.swift */; };
 		D34FCAEA2906F334006984B2 /* TimeTrackingDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCAE92906F334006984B2 /* TimeTrackingDashboardUITestsLaunchTests.swift */; };
+		D3FAF131291EC067001B7CD6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF130291EC067001B7CD6 /* Color.swift */; };
+		D3FAF133291EC17A001B7CD6 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF132291EC17A001B7CD6 /* Typography.swift */; };
+		D3FAF144291EC28F001B7CD6 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */; };
+		D3FAF146291EC28F001B7CD6 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		D34FCAE32906F334006984B2 /* TimeTrackingDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackingDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34FCAE72906F334006984B2 /* TimeTrackingDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingDashboardUITests.swift; sourceTree = "<group>"; };
 		D34FCAE92906F334006984B2 /* TimeTrackingDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3FAF130291EC067001B7CD6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D3FAF132291EC17A001B7CD6 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		D34FCACB2906F330006984B2 /* TimeTrackingDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				D3FAF12F291EC052001B7CD6 /* Styles */,
 				D34FCACC2906F330006984B2 /* TimeTrackingDashboardApp.swift */,
 				D34FCACE2906F330006984B2 /* ContentView.swift */,
 				D34FCAD02906F333006984B2 /* Assets.xcassets */,
@@ -125,6 +134,33 @@
 				D34FCAE92906F334006984B2 /* TimeTrackingDashboardUITestsLaunchTests.swift */,
 			);
 			path = TimeTrackingDashboardUITests;
+			sourceTree = "<group>";
+		};
+		D3FAF12F291EC052001B7CD6 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAF134291EC267001B7CD6 /* Typography */,
+				D3FAF130291EC067001B7CD6 /* Color.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		D3FAF134291EC267001B7CD6 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAF135291EC271001B7CD6 /* Fonts */,
+				D3FAF132291EC17A001B7CD6 /* Typography.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		D3FAF135291EC271001B7CD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */,
+				D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34FCAD42906F333006984B2 /* Preview Assets.xcassets in Resources */,
+				D3FAF144291EC28F001B7CD6 /* Rubik-Bold.ttf in Resources */,
+				D3FAF146291EC28F001B7CD6 /* Rubik-Regular.ttf in Resources */,
 				D34FCAD12906F333006984B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34FCACF2906F330006984B2 /* ContentView.swift in Sources */,
+				D3FAF133291EC17A001B7CD6 /* Typography.swift in Sources */,
+				D3FAF131291EC067001B7CD6 /* Color.swift in Sources */,
 				D34FCACD2906F330006984B2 /* TimeTrackingDashboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
