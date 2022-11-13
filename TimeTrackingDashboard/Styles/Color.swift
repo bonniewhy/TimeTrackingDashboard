@@ -9,7 +9,7 @@ public extension Color {
     static let blue = Color("Blue")
     static let gold = Color("Gold")
     static let limeGreen = Color("Lime Green")
-    static let orange = Color("Orange")
+    static let orangeSoft = Color("Orange - Soft")
     static let redLight = Color("Red - Light")
     static let violet = Color("Violet")
 }

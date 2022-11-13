@@ -1,13 +1,6 @@
- //
-//  ContentView.swift
-//  TimeTrackingDashboard
-//
-//  Created by Bonnie Why on 10/24/22.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct ProfileCardView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,8 +12,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ProfileCardView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProfileCardView()
     }
 }

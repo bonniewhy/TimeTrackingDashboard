@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D34FCACD2906F330006984B2 /* TimeTrackingDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCACC2906F330006984B2 /* TimeTrackingDashboardApp.swift */; };
-		D34FCACF2906F330006984B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCACE2906F330006984B2 /* ContentView.swift */; };
+		D34FCACF2906F330006984B2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCACE2906F330006984B2 /* DashboardView.swift */; };
 		D34FCAD12906F333006984B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34FCAD02906F333006984B2 /* Assets.xcassets */; };
 		D34FCAD42906F333006984B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34FCAD32906F333006984B2 /* Preview Assets.xcassets */; };
 		D34FCADE2906F334006984B2 /* TimeTrackingDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FCADD2906F334006984B2 /* TimeTrackingDashboardTests.swift */; };
@@ -18,6 +18,12 @@
 		D3FAF133291EC17A001B7CD6 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF132291EC17A001B7CD6 /* Typography.swift */; };
 		D3FAF144291EC28F001B7CD6 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */; };
 		D3FAF146291EC28F001B7CD6 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */; };
+		D3FAF177292154BA001B7CD6 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF176292154BA001B7CD6 /* Scale.swift */; };
+		D3FAF179292155DA001B7CD6 /* TimeTrackerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF178292155DA001B7CD6 /* TimeTrackerCardView.swift */; };
+		D3FAF17F29215749001B7CD6 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF17E29215749001B7CD6 /* ProfileCardView.swift */; };
+		D3FAF18229215F7F001B7CD6 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF18129215F7F001B7CD6 /* Rubik-Light.ttf */; };
+		D3FAF18429215FB0001B7CD6 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF18329215FB0001B7CD6 /* Rubik-SemiBold.ttf */; };
+		D3FAF18629216525001B7CD6 /* DashboardView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF18529216525001B7CD6 /* DashboardView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 /* Begin PBXFileReference section */
 		D34FCAC92906F330006984B2 /* TimeTrackingDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTrackingDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34FCACC2906F330006984B2 /* TimeTrackingDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingDashboardApp.swift; sourceTree = "<group>"; };
-		D34FCACE2906F330006984B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D34FCACE2906F330006984B2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		D34FCAD02906F333006984B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34FCAD32906F333006984B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D34FCAD92906F334006984B2 /* TimeTrackingDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackingDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,13 @@
 		D3FAF132291EC17A001B7CD6 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		D3FAF176292154BA001B7CD6 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Scale.swift; path = Typography/Scale.swift; sourceTree = "<group>"; };
+		D3FAF178292155DA001B7CD6 /* TimeTrackerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerCardView.swift; sourceTree = "<group>"; };
+		D3FAF17E29215749001B7CD6 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
+		D3FAF18029215F34001B7CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3FAF18129215F7F001B7CD6 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		D3FAF18329215FB0001B7CD6 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		D3FAF18529216525001B7CD6 /* DashboardView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +115,12 @@
 		D34FCACB2906F330006984B2 /* TimeTrackingDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				D3FAF18029215F34001B7CD6 /* Info.plist */,
 				D3FAF12F291EC052001B7CD6 /* Styles */,
 				D34FCACC2906F330006984B2 /* TimeTrackingDashboardApp.swift */,
-				D34FCACE2906F330006984B2 /* ContentView.swift */,
+				D34FCACE2906F330006984B2 /* DashboardView.swift */,
+				D3FAF18529216525001B7CD6 /* DashboardView+ViewModel.swift */,
+				D3FAF17A292155E9001B7CD6 /* Cards */,
 				D34FCAD02906F333006984B2 /* Assets.xcassets */,
 				D34FCAD22906F333006984B2 /* Preview Content */,
 			);
@@ -139,8 +155,9 @@
 		D3FAF12F291EC052001B7CD6 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				D3FAF134291EC267001B7CD6 /* Typography */,
 				D3FAF130291EC067001B7CD6 /* Color.swift */,
+				D3FAF176292154BA001B7CD6 /* Scale.swift */,
+				D3FAF134291EC267001B7CD6 /* Typography */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -159,8 +176,19 @@
 			children = (
 				D3FAF136291EC28E001B7CD6 /* Rubik-Bold.ttf */,
 				D3FAF138291EC28E001B7CD6 /* Rubik-Regular.ttf */,
+				D3FAF18329215FB0001B7CD6 /* Rubik-SemiBold.ttf */,
+				D3FAF18129215F7F001B7CD6 /* Rubik-Light.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D3FAF17A292155E9001B7CD6 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAF17E29215749001B7CD6 /* ProfileCardView.swift */,
+				D3FAF178292155DA001B7CD6 /* TimeTrackerCardView.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +297,8 @@
 			files = (
 				D34FCAD42906F333006984B2 /* Preview Assets.xcassets in Resources */,
 				D3FAF144291EC28F001B7CD6 /* Rubik-Bold.ttf in Resources */,
+				D3FAF18229215F7F001B7CD6 /* Rubik-Light.ttf in Resources */,
+				D3FAF18429215FB0001B7CD6 /* Rubik-SemiBold.ttf in Resources */,
 				D3FAF146291EC28F001B7CD6 /* Rubik-Regular.ttf in Resources */,
 				D34FCAD12906F333006984B2 /* Assets.xcassets in Resources */,
 			);
@@ -295,10 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34FCACF2906F330006984B2 /* ContentView.swift in Sources */,
+				D34FCACF2906F330006984B2 /* DashboardView.swift in Sources */,
+				D3FAF18629216525001B7CD6 /* DashboardView+ViewModel.swift in Sources */,
 				D3FAF133291EC17A001B7CD6 /* Typography.swift in Sources */,
 				D3FAF131291EC067001B7CD6 /* Color.swift in Sources */,
+				D3FAF177292154BA001B7CD6 /* Scale.swift in Sources */,
+				D3FAF17F29215749001B7CD6 /* ProfileCardView.swift in Sources */,
 				D34FCACD2906F330006984B2 /* TimeTrackingDashboardApp.swift in Sources */,
+				D3FAF179292155DA001B7CD6 /* TimeTrackerCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +494,7 @@
 				DEVELOPMENT_TEAM = 85KAP89CK2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTrackingDashboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,6 +524,7 @@
 				DEVELOPMENT_TEAM = 85KAP89CK2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTrackingDashboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
